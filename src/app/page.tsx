@@ -12,7 +12,7 @@ export default function Home() {
           height={150}
           priority
         />
-        <h1>Hi, I'm Nemanja Kostovski, a web developer.</h1>
+        <h1>Hi, I&apos;m Nemanja Kostovski, a web developer.</h1>
       </div>
     </main>
   );

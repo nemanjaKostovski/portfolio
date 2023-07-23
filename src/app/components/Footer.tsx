@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <div className='flex w-9/12 justify-center border-t'>
       <div className='h-10'></div>
-      <p> Nemanja Kostovski, All Rights Reserved `&copy;` {year} </p>
+      <p> Nemanja Kostovski, All Rights Reserved &copy; {year} </p>
     </div>
   );
 }

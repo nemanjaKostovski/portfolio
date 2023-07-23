@@ -5,7 +5,8 @@ export default function About() {
     <section className='m-48 mb-96 flex flex-col justify-center'>
       <h2 className='mb-2 flex justify-center text-xl'>About me</h2>
       <p>
-        I'm an aspiring developer that mainly focuses on frontend and fullstack.
+        I&apos;m an aspiring developer that mainly focuses on frontend and
+        fullstack.
       </p>
       <p className='mt-10'>
         I use Javascript and Typescript as programming languages.

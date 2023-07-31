@@ -16,7 +16,7 @@ export default function Projects() {
             height={100}
             priority
           />
-          <div className='w-full group-hover:bg-gray-600 dark:dark:bg-gray-700'>
+          <div className='w-full bg-slate-300 hover:bg-slate-200 dark:bg-gray-700 hover:dark:bg-gray-600'>
             <h3 className='p-4'>Project name</h3>
             <p className='p-4'>Project description</p>
           </div>
@@ -32,7 +32,7 @@ export default function Projects() {
             height={100}
             priority
           />
-          <div className='w-full group-hover:bg-gray-600 dark:dark:bg-gray-700'>
+          <div className='w-full bg-slate-300 hover:bg-slate-200 dark:bg-gray-700 hover:dark:bg-gray-600'>
             <h3 className='p-4'>Project name</h3>
             <p className='p-4'>Project description</p>
           </div>
@@ -48,7 +48,7 @@ export default function Projects() {
             height={100}
             priority
           />
-          <div className='w-full dark:bg-gray-700 dark:group-hover:bg-gray-600'>
+          <div className='w-full bg-slate-300 hover:bg-slate-200 dark:bg-gray-700 dark:group-hover:bg-gray-600'>
             <h3 className='p-4'>Project name</h3>
             <p className='p-4'>Project description</p>
           </div>
@@ -64,7 +64,7 @@ export default function Projects() {
             height={100}
             priority
           />
-          <div className='w-full dark:bg-gray-700 dark:group-hover:bg-gray-600'>
+          <div className='w-full bg-slate-300 hover:bg-slate-200 dark:bg-gray-700 dark:group-hover:bg-gray-600'>
             <h3 className='p-4'>Project name</h3>
             <p className='p-4'>Project description</p>
           </div>
@@ -80,7 +80,7 @@ export default function Projects() {
             height={100}
             priority
           />
-          <div className='w-full dark:bg-gray-700 dark:group-hover:bg-gray-600'>
+          <div className='w-full bg-slate-300 hover:bg-slate-200 dark:bg-gray-700 dark:group-hover:bg-gray-600'>
             <h3 className='p-4'>Project name</h3>
             <p className='p-4'>Project description</p>
           </div>
@@ -96,7 +96,7 @@ export default function Projects() {
             height={100}
             priority
           />
-          <div className='w-full dark:bg-gray-700 dark:group-hover:bg-gray-600'>
+          <div className='w-full bg-slate-300 hover:bg-slate-200 dark:bg-gray-700 dark:group-hover:bg-gray-600'>
             <h3 className='p-4'>Project name</h3>
             <p className='p-4'>Project description</p>
           </div>

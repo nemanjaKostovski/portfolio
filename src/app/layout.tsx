@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body
-        className={`${inter.className} flex min-h-screen flex-col items-center p-4`}
+        className={`${inter.className} box-border flex min-h-screen flex-col items-center p-4`}
       >
         <Navbar />
         {children}

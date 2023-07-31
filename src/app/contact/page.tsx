@@ -39,13 +39,13 @@ export default function Contact() {
       </p>
     </div>
   ) : (
-    <section className='mt-60 flex flex-col'>
+    <section className='mt-12 flex h-screen w-9/12 flex-col'>
       <h2 className='mb-10 flex justify-center text-2xl'>Contact me</h2>
-      <form className='mb-60 flex flex-col' onSubmit={handleSubmit}>
+      <form className='mb-24 flex flex-col lg:mb-60 ' onSubmit={handleSubmit}>
         <label htmlFor='subject'>
           Email:{' '}
           <input
-            className='block h-8 w-80 rounded border border-black dark:text-black'
+            className=' block h-8 rounded border-2 border-black dark:border-indigo-500 dark:text-black sm:w-80'
             type='email'
             id='email'
             name='email'
@@ -58,7 +58,7 @@ export default function Contact() {
         <label htmlFor='subject'>
           Subject:{' '}
           <input
-            className='block h-8 w-80 rounded border border-black dark:text-black'
+            className='block h-8 rounded border-2 border-black dark:border-indigo-500 dark:text-black sm:w-80'
             type='text'
             id='subject'
             name='subject'
@@ -68,11 +68,10 @@ export default function Contact() {
         </label>
         <label htmlFor='body'>Message:</label>
         <textarea
-          className='rounded border border-black dark:text-black'
+          className='w-full rounded border-2 border-black dark:border-indigo-500 dark:text-black'
           name='body'
           id='body'
-          cols={80}
-          rows={15}
+          rows={6}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
           placeholder='Enter your message'

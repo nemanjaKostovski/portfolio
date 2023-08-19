@@ -20,7 +20,7 @@ export default function ProjectCard({
       className='group flex h-96 w-full flex-row rounded-lg border border-indigo-600 hover:border-indigo-400 hover:backdrop-blur-xl'
       href={`${link}`}
     >
-      <div className='min-w-60 h-96 w-96 rounded-lg bg-slate-300 group-hover:bg-slate-200 dark:bg-gray-700 group-hover:dark:bg-gray-600'>
+      <div className='h-96 w-96 min-w-fit rounded-lg bg-slate-300 group-hover:bg-slate-200 dark:bg-gray-700 group-hover:dark:bg-gray-600'>
         <Image
           src={image}
           alt={name}

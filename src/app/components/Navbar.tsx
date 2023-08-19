@@ -25,7 +25,7 @@ export default function Navbar() {
           href='/'
           className='hover:text-[#4B0082] dark:hover:text-[#d1d7e6]'
         >
-          Nemanja Kostovski
+          Home
         </Link>
         <Link
           className='hover:text-[#4B0082] dark:hover:text-[#d1d7e6]'
@@ -72,7 +72,7 @@ export default function Navbar() {
             className='w-full py-6 text-center hover:text-[#4B0082] dark:hover:text-[#d1d7e6]'
             onClick={handleNavToggle}
           >
-            Nemanja Kostovski
+            Home
           </Link>
           <Link
             className='w-full py-6 text-center hover:text-[#4B0082] dark:hover:text-[#d1d7e6]'

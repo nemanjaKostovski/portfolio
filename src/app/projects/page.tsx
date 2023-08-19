@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <>
       <h2 className='p-16 text-2xl'>Check out my awesome projects!</h2>
-      <section className='grid gap-x-2 gap-y-2 p-16 md:grid-cols-2 lg:grid-cols-3'>
+      <section className='mb-32 grid gap-x-2 gap-y-2 pb-16 pt-16 md:grid-cols-2 lg:grid-cols-3'>
         <ProjectCard
           link={projectsData.spacex.link}
           name={projectsData.spacex.name}

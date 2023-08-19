@@ -15,6 +15,6 @@ export const projectsData = {
     shortDescription: 'Vanilla landing page',
     link: 'https://nemanjakostovski.github.io/NetworkTigers/',
     longDescription:
-      'This landing page was created as part of a contest on Freelancer.com where I competed with designers directly writing the code for the possible new landing page for Network Tigers official website. Ultimately, they chose someone else with better design skills, no hard feelings since I am a web developer, not a designer, and it was good to be in the final mix.',
+      'This landing page was created as part of a contest on Freelancer.com where I competed with designers directly writing the code for the possible new landing page for Network Tigers official website. Ultimately, they chose someone else with better design skills, no hard feelings since I am a web developer, not a designer, but it was good to be in the final mix.',
   },
 };

@@ -1,7 +1,7 @@
 export const projectsData = {
   streaming: {
     name: 'StreamingMax',
-    image: '/spacex-logo.png',
+    image: '/streaming-logo/png',
     tech: 'NextJS TS Tailwind NextAuth',
     shortDescription: 'Built with the movieDB API',
     link: 'https://streaming-sigma-red.vercel.app/',

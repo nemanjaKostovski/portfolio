@@ -3,21 +3,21 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: 'GlitchFont';
+  src: url('/RubikGlitch-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: 'GlitchFont', sans-serif;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -31,4 +31,20 @@ body {
     @apply [&>div::after]:translate-y-0 [&>div::after]:rotate-45 
     [&>div::before]:translate-y-0 [&>div::before]:-rotate-45 [&>div]:bg-transparent;
   }
+}
+
+/*Hover for project cards*/
+
+.neon-glow {
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 0px 20px rgba(255, 105, 180, 0.9);
+}
+
+.hover\:neon-glow:hover {
+  box-shadow: 0 0 45px rgba(255, 105, 180, 1);
+}
+
+.focus\:neon-glow:focus {
+  outline: none;
+  box-shadow: 0 0 50px rgba(255, 105, 180, 1);
 }

@@ -21,9 +21,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} box-border flex min-h-screen flex-col items-center`}
       >
-        {/* <Navbar /> */}
         {children}
-        {/* <Footer /> */}
       </body>
     </html>
   );

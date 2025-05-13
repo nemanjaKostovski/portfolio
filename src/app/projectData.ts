@@ -26,7 +26,7 @@ export const projectsData = {
     shortDescription: 'Fullstack project',
     link: 'https://qcalumil.vercel.app/',
     longDescription:
-      'This is a fullstack application built for systematic management of claims. Current features of the app are simple login form, creation of new claims and editing, adding image and 8D report associated with the claim and claim deletion. All data is stored in MongoDB database. EdgeStore is used for file storage. Simple dashboard is present with diagrams and basic information about selected claims. Claims can be filtered by year,customer, or product name.',
+      'This is a fullstack application built for systematic management of claims. Current features of the app are simple login form, creation of new claims and editing, adding image and 8D report associated with the claim and claim deletion. All data is stored in MongoDB database. EdgeStore is used for file storage. Simple dashboard is present with diagrams and basic information about selected claims. Claims can be filtered by year, customer, or product name and current active filter can be downloaded in CSV format.',
     demo: 'https://youtu.be/XmDrYH4xqd4',
   },
 };

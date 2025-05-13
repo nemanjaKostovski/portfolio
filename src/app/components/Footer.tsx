@@ -1,7 +1,7 @@
 export default function Footer() {
   const year: number = new Date().getFullYear();
   return (
-    <div className='pt-4 flex h-20 justify-center border-t w-full text-xl md:text-4xl text-center'>
+    <div className='pt-4  flex absolute bottom-0 h-20 justify-center border-t w-full text-xl md:text-4xl text-center'>
       <p
         style={{
           fontFamily: 'Brush Script MT, cursive',

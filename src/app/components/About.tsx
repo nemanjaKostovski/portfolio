@@ -3,7 +3,7 @@ import Heading from './Heading';
 export default function About() {
   return (
     <>
-      <section className='relative mb-20 h-full w-full'>
+      <section className='relative mt-60 mb-20 h-full w-full'>
         <div className='absolute left-0 top-0 z-10 h-60 w-full bg-gradient-to-b from-black to-red-900 '></div>
         <div className='relative z-20 mt-10 flex h-screen w-full flex-col items-center justify-center text-center'>
           <Heading title='About me' />

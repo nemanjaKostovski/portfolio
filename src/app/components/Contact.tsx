@@ -33,8 +33,8 @@ export default function Contact() {
   }
 
   return isSubmitted ? (
-    <section className='mt-12 flex h-[60vh] w-9/12 flex-col'>
-      <div className='flex flex-col items-center'>
+    <section className='mt-12 flex h-[60vh] w-full flex-col items-center'>
+      <div className='flex flex-col items-center w-9/12'>
         <Heading title='Contact' />
         <p
           className='mt-20 text-4xl sm:text-6xl w-5/6 text-center'
@@ -50,12 +50,12 @@ export default function Contact() {
       </div>
     </section>
   ) : (
-    <section className='mt-12 flex h-screen w-9/12 flex-col'>
-      <div className='flex justify-center'>
+    <section className='mt-12 mb-96 flex h-screen w-full flex-col items-center'>
+      <div className='flex flex-col items-center w-9/12'>
         <Heading title='Contact' />
       </div>
 
-      <form className='flex flex-col mt-10' onSubmit={handleSubmit}>
+      <form className='flex flex-col mt-10 w-9/12' onSubmit={handleSubmit}>
         <label htmlFor='subject' className='text-2xl'>
           Email:
           <input

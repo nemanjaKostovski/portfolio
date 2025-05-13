@@ -32,18 +32,8 @@ export default function LandingPage() {
   const firstName = splitText[0] || '';
   const lastName = splitText[1] || '';
 
-  const [font, setFont] = useState('GlitchFont');
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setTimeout(() => setFont('sans-serif'), 100);
-      setTimeout(() => setFont('GlitchFont'), 150);
-      clearInterval(interval);
-    }, 5000);
-  }, [font]);
-
   return (
-    <div className='relative h-screen w-full overflow-hidden text-white'>
+    <div className='relative h-full lg:h-screen w-full overflow-hidden text-white'>
       {/* Background Video */}
       <video
         className='absolute left-0 top-0 z-0 h-full w-full object-cover'
@@ -114,13 +104,13 @@ export default function LandingPage() {
         {/* Welcome Text */}
         <h2
           className='mt-6 text-6xl font-bold tracking-widest drop-shadow-[2px_2px_0px_rgba(255,105,180,1)]'
-          style={{ fontFamily: font || 'GlitchFont' }}
+          style={{ fontFamily: 'GlitchFont' }}
         >
           Welcome to My Website
         </h2>
         <p className='mt-4 max-w-xl text-lg'>
-          A fusion of boldness, creativity, awesomeness, technology, and
-          futuristic aesthetics.
+          Crafting fast, accessible, and visually striking web experiences with
+          modern full-stack technologies.
         </p>
       </motion.div>
 
